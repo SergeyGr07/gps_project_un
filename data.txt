@@ -1,0 +1,463 @@
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 28
+Message length: 11
+Message: ESP8266otpr
+RSSI: -50
+Snr: 10.00
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 6
+Message length: 25
+Message: Temp from LoRa32: 37.00 C
+RSSI: -84
+Snr: 7.00
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 7
+Message length: 25
+Message: Temp from LoRa32: 36.94 C
+RSSI: -81
+Snr: 8.25
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 8
+Message length: 25
+Message: Temp from LoRa32: 36.94 C
+RSSI: -89
+Snr: 1.00
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 9
+Message length: 25
+Message: Temp from LoRa32: 36.94 C
+RSSI: -86
+Snr: 4.25
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 10
+Message length: 25
+Message: Temp from LoRa32: 36.81 C
+RSSI: -85
+Snr: 5.00
+
+Sending ESP8266otpr
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 11
+Message length: 25
+Message: Temp from LoRa32: 37.31 C
+RSSI: -90
+Snr: -0.75
+
+Sending ESP8266otpr
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 13
+Message length: 25
+Message: Temp from LoRa32: 37.69 C
+RSSI: -92
+Snr: -5.50
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 14
+Message length: 25
+Message: Temp from LoRa32: 37.75 C
+RSSI: -91
+Snr: -2.25
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 15
+Message length: 25
+Message: Remp from LoRa32: 37.34 C
+RSSI: -91
+Snr: -5.00
+
+Sending ESP8266otpr
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 16
+Message length: 25
+Message: Temp from LoRa32: 38.13 C
+RSSI: -91
+Snr: -4.00
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 0
+Message length: 9
+Message: ESP Hello
+RSSI: -56
+Snr: 10.00
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 17
+Message length: 25
+Message: Temp from LoRa32: 38.13 C
+RSSI: -91
+Snr: -3.25
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 1
+Message length: 9
+Message: ESP Hello
+RSSI: -59
+Snr: 9.75
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 18
+Message length: 25
+Message: Temp from LoRa32: 38.38 C
+RSSI: -91
+Snr: -1.25
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 2
+Message length: 9
+Message: ESP Hello
+RSSI: -57
+Snr: 10.00
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 19
+Message length: 25
+Message: Temp from LoRa32: 38.44 C
+RSSI: -91
+Snr: -2.00
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 20
+Message length: 25
+Message: Temp from LoRa32: 38.44 C
+RSSI: -88
+Snr: 2.50
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 3
+Message length: 9
+Message: ESP Hello
+RSSI: -61
+Snr: 9.50
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 21
+Message length: 25
+Message: Temp from LoRa32: 38.31 C
+RSSI: -87
+Snr: 3.00
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 4
+Message length: 9
+Message: ESP Hello
+RSSI: -55
+Snr: 9.50
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 22
+Message length: 25
+Message: Temp from LoRa32: 38.31 C
+RSSI: -86
+Snr: 4.00
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 5
+Message length: 9
+Message: ESP Hello
+RSSI: -55
+Snr: 9.75
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 23
+Message length: 25
+Message: Temp from LoRa32: 38.25 C
+RSSI: -87
+Snr: 3.25
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 6
+Message length: 9
+Message: ESP Hello
+RSSI: -61
+Snr: 10.00
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 24
+Message length: 25
+Message: Temp from LoRa32: 38.19 C
+RSSI: -90
+Snr: -0.75
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 7
+Message length: 9
+Message: ESP Hello
+RSSI: -58
+Snr: 10.50
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 25
+Message length: 25
+Message: Temp from LoRa32: 38.13 C
+RSSI: -91
+Snr: -3.75
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 8
+Message length: 9
+Message: ESP Hello
+RSSI: -60
+Snr: 9.50
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 9
+Message length: 9
+Message: ESP Hello
+RSSI: -55
+Snr: 9.75
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 26
+Message length: 25
+Message: Temp from LoRa32: 38.31 C
+RSSI: -90
+Snr: -0.50
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 10
+Message length: 9
+Message: ESP Hello
+RSSI: -56
+Snr: 9.75
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 27
+Message length: 25
+Message: Temp from LoRa32: 38.44 C
+RSSI: -92
+Snr: -9.00
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 11
+Message length: 9
+Message: ESP Hello
+RSSI: -56
+Snr: 9.75
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 28
+Message length: 25
+Message: Temp from LoRa32: 38.56 C
+RSSI: -90
+Snr: -3.25
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 29
+Message length: 25
+Message: Temp from LoRa32: 38.44 C
+RSSI: -89
+Snr: 1.75
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 12
+Message length: 9
+Message: ESP Hello
+RSSI: -52
+Snr: 10.25
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 30
+Message length: 25
+Message: Temp from LoRa32: 38.69 C
+RSSI: -85
+Snr: 4.50
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 13
+Message length: 9
+Message: ESP Hello
+RSSI: -51
+Snr: 10.25
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 31
+Message length: 25
+Message: Temp from LoRa32: 38.69 C
+RSSI: -85
+Snr: 5.50
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 14
+Message length: 9
+Message: ESP Hello
+RSSI: -54
+Snr: 10.00
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 32
+Message length: 25
+Message: Temp from LoRa32: 38.69 C
+RSSI: -86
+Snr: 4.25
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 33
+Message length: 25
+Message: Temp from LoRa32: 38.75 C
+RSSI: -86
+Snr: 4.25
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 15
+Message length: 9
+Message: ESP Hello
+RSSI: -53
+Snr: 10.00
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 34
+Message length: 25
+Message: Temp from LoRa32: 38.69 C
+RSSI: -83
+Snr: 6.75
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 16
+Message length: 9
+Message: ESP Hello
+RSSI: -48
+Snr: 10.00
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 35
+Message length: 25
+Message: Temp from LoRa32: 38.69 C
+RSSI: -83
+Snr: 6.25
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 17
+Message length: 9
+Message: ESP Hello
+RSSI: -50
+Snr: 10.00
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 36
+Message length: 25
+Message: Temp from LoRa32: 38.75 C
+RSSI: -84
+Snr: 5.50
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 37
+Message length: 25
+Message: Temp from LoRa32: 38.88 C
+RSSI: -84
+Snr: 6.00
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 18
+Message length: 9
+Message: ESP Hello
+RSSI: -56
+Snr: 10.25
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 38
+Message length: 25
+Message: Temp from LoRa32: 38.75 C
+RSSI: -82
+Snr: 6.50
+
+Sending ESP8266otpr
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 19
+Message length: 9
+Message: ESP Hello
+RSSI: -56
+Snr: 9.50
+
+Received from: 0xbb
+Sent to: 0xff
+Message ID: 20
+Message length: 9
+Message: ESP Hello
+RSSI: -53
+Snr: 10.00
+
