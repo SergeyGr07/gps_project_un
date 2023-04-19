@@ -22,20 +22,20 @@
                     <tbody id="table-data">
                       <tr>
                         <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
+                        <td>First</td>
+                        <td>Worker</td>
                         <td id="first">@mdo</td>
                       </tr>
                       <tr>
                         <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
+                        <td>Second</td>
+                        <td>Worker</td>
                         <td>???</td>
                       </tr>
                       <tr>
                         <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
+                        <td>Third</td>
+                        <td>Worker</td>
                         <td>???</td>
                       </tr>
                     </tbody>
@@ -44,28 +44,84 @@
                     fetch('/map/chat/')
                       .then(response => response.json())
                       .then(data => {
-                        const rows = document.getElementsByTagName('tr');
-                        for (let i = 1; i < rows.length; i++) {
-                          const cells = rows[i].getElementsByTagName('td');
-                          cells[2].innerText = data.message;
-                        }
+                        const cell = document.getElementById('first');
+                        cell.innerText = data.message;
                       });
                   </script>
                 
                   {% comment %} В этом блоке я хочу вывести сообщение {% endcomment %}
-                  <div>                 
-                    <button id = "refresh-btn">Refresh</button>
-                    
-                    
-                    <div id="chat">
+                 <!-- <form id="message-form" method="post">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="user-message">Enter your message:</label>
+                        <textarea class="form-control" id="user-message" rows="3" name="user_message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                  </form>
+                -->
+                <div>      
+                  {% csrf_token %}           
+                  <button id="send-btn" class="btn btn-primary">Send</button>                                    
+                  <div id="chat">
+                    <form id="chat-form">
                       <div class="form-group">
                         <label for="exampleFormControlTextarea1">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" name="user_message" rows="3" placeholder=""></textarea>
                       </div>
-                    </div>
+                    </form>
                   </div>
-                  
-                  <script>
+                </div>
+                
+                 <script>
+                  var chatForm = document.getElementById('chat-form');
+                  var sendBtn = document.getElementById('send-btn');
+                  chatForm.value = ''
+                  sendBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    var userMessage = document.getElementById('exampleFormControlTextarea1').value;
+                    var csrfToken = document.getElementsByName('csrfmiddlewaretoken')[0].value;
+                    var xhr = new XMLHttpRequest();
+                    userMessage.value = ''
+                    xhr.open('POST', '/send-message/');
+                    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                    xhr.setRequestHeader('X-CSRFToken', csrfToken);
+                    xhr.onload = function() {
+                      if (xhr.status === 200) {
+                        console.log('Сообщение отправлено');
+                        document.getElementById('exampleFormControlTextarea1').value = '';
+                      } else {
+                        console.log('Ошибка отправки сообщения');
+                      }
+                    };
+                    xhr.send(encodeURI('user_message=' + userMessage));
+                  });
+                </script>
+                
+                  <!--<script>
+                    const sendButton = document.getElementById('send-btn');
+                    const chatForm = document.getElementById('chat-form');
+
+                    sendButton.addEventListener('click', (event) => {
+                      event.preventDefault();
+                      
+                      const formData = new FormData(chatForm);
+                      const userMessage = formData.get('user_message');
+                      
+                      fetch('/map/write_message/', {
+                        method: 'POST',
+                        headers: {
+                          'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                          user_message: userMessage
+                        })
+                      })
+                      .then(response => response.json())
+                      .then(response_json => console.log(response_json))
+                      .catch(err => console.error('Fetch Error:', err));
+                    });
+                  </script>-->
+                  <!--<script>
                     var refreshForm = document.getElementById('refresh-btn');
                     var chatTextarea = document.getElementById('exampleFormControlTextarea1');
                     chatTextarea.value = ""
@@ -75,7 +131,7 @@
                     .then(response => response.json())
                     .then(response_json => updateTextArea(response_json))
                     .catch(err => console.log(err));})
-                  </script>
+                  </script>-->
             </div>
         </div>
     </div>

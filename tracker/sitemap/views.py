@@ -2,7 +2,8 @@ from django.shortcuts import render
 from django.http import JsonResponse
 import folium
 from static.com import messages
-
+import json
+import os
 
 
 # Create your views here.
@@ -51,7 +52,7 @@ def map(request):
     marker1 = [52.2573, 104.2652]
     # Create map
     m = folium.Map(location=[52.257529268365516, 104.26505193126633], zoom_start=15)
-    m.get_root().html.add_child(folium.Element('<style>.leaflet-control-attribution {display:none;}</style>'))
+    m.get_root().html.add_child(folium.Element('<style>.leaflet-control-attribution {display:none;}</style>')) # type: ignore
 
     shapesLayer = folium.FeatureGroup(name="warning").add_to(m)
 
@@ -109,7 +110,24 @@ def map(request):
 
 
 def chat(request):
-    message = messages
     data = {'message': messages,
             }
     return JsonResponse(data)
+
+
+
+
+
+
+def send_message(request):
+    if request.method == 'POST':
+        user_message = request.POST.get('user_message', '')
+        print(user_message)
+        f = open("C:/code/gps_project/message.txt", "a")
+        f.write(user_message + '\n')
+        f.close()
+        # Здесь можно выполнить какие-то действия с полученным сообщением
+        return JsonResponse({'success': True})
+    else:
+        return JsonResponse({'success': False})
+
